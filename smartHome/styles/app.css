@@ -33,6 +33,10 @@ body {
     opacity: 0.1;
 }
 
+.d-half {
+    width: 50%;
+}
+
 .d-flex {
     display: flex;
 }
@@ -41,7 +45,8 @@ body {
 }
 
 .content-wrap {
-    /* max-width: 1170px; */
+    max-width: 1170px;
+    margin: 0 auto;
     padding: 0 20px;
 }
 
