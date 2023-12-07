@@ -38,7 +38,12 @@
     width: 174px;
     height: 174px;
     z-index: 1;
+}
 
+.vector1 {
+    background-image: url("../images/vector1.png");
+    right: 10%;
+    top: 10%;
 }
 
 
@@ -72,18 +77,18 @@
 }
 
 .about-us_media {
+    max-width: 470px;
+    margin: 0 auto;
     padding-top: 20px;
     text-align: center;
 }
 
 .about-us_media h2 {
-    max-width: 471px;
     font-size: 1.125rem;
     font-weight: 600;
 }
 
 .about-us_media p {
-    max-width: 446px;
     font-size: .5rem;
     color: var(--color-grey);
     line-height: normal;
@@ -119,6 +124,7 @@
     margin: 10px 0 20px 0;
     color: var(--color-grey);
     font-size: .5rem;
+    padding: 0 150px;
 }
 
 .container {

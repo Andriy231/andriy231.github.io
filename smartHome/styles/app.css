@@ -34,7 +34,7 @@ body {
 }
 
 .d-half {
-    width: 50%;
+    width: 100%;
 }
 
 .d-flex {
@@ -95,5 +95,8 @@ body {
     }
     .hide {
         display: block;
+    }
+    .d-half {
+        width: 50%;
     }
 }
