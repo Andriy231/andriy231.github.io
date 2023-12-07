@@ -21,6 +21,10 @@ body {
     text-align: center;
 }
 
+.img-responsive {
+    max-width: 100%;
+}
+
 .opacity_main-line {
     opacity: 0.4;
 }

@@ -2,6 +2,51 @@
     position: relative;
 }
 
+/* --- background --- */
+.abstact {
+    position: absolute;
+}
+
+.oval_1 {
+    background-image: url(/images/bg_ellipse1.png);
+    left: 88%;
+    top: 15%;
+    width: 34px;
+    height: 31px;
+}
+
+.oval_2 {
+    background-image: url(/images/bg_ellipse2.png);
+    left: 76%;
+    top: 82%;
+    width: 17px;
+    height: 17px;
+}
+
+.oval_3 {
+    background-image: url(/images/bg_ellipse3.png);
+    left: 9%;
+    top: 53%;
+    width: 29px;
+    height: 29px;
+}
+
+.ellipse_1 {
+    background-image: url(/images/ellipse.png);
+    right: 0;
+    top: 0;
+    width: 174px;
+    height: 174px;
+    z-index: 1;
+
+}
+
+
+
+
+
+
+
 .container_image {
     position: relative;
     display: flex;
@@ -337,7 +382,7 @@
 @media (min-width: 768px) {
     .main-image {
         position: absolute;
-        top: 525px;
+        top: 350px;
         padding-top: 15px;
         /* left: 75px; */ 
     }
@@ -375,7 +420,7 @@
         font-size: 1.125rem;
     }
     .phone_img-block {
-        width: 546px;
+        width: 80%;
         height: 352px;
         border-radius: 10px;
         background: var(--color-blue);
@@ -456,9 +501,9 @@
         top: -280px;
         left: -263px;
     }
-    .wrap {
+    /* .wrap {
         justify-content:space-between ;
-    }
+    } */
     .section-download_right-block {
         width: 546px;
         height: 352px;
