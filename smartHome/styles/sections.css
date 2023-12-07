@@ -41,7 +41,6 @@
 }
 
 .vector1 {
-    background-image: url("../images/vector1.png");
     right: 10%;
     top: 10%;
 }
@@ -461,6 +460,9 @@
     }
     .section-testimonial_container {
         flex-direction: row;
+    }
+    .card {
+        max-width: none;
     }
     .card-desc {
         font-size: .6rem;
