@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('_variables.css');
+@import url('_hero.css');
+@import url('_sections.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+.t-bold {
+    font-weight: 700;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.opacity_main-line {
+    opacity: 0.4;
+}
+
+.opacity_line {
+    opacity: 0.1;
+}
+
+.d-flex {
+    display: flex;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+.content-wrap {
+    max-width: 1170px;
+    padding: 0 20px;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.btn {
+    width: 185px;
+    height: 58px;
+    border: 1px solid #000F37;
+    text-align: center;
+    line-height: 58px;
+    border-radius: 5px;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+.hide-desktop {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.menu-close {
+    height: 0;
+    overflow: hidden;
+    transition: height 1s ease;
+}
+
+.pull-r {
+    margin-left: auto;
+}
+
+
+@media (min-width:768px) {
+    .hide-mobile {
+        display: flex;
+    }
+    .hide-desktop {
+        display: none;
+    }
+    .hide {
+        display: block;
+    }
+}
