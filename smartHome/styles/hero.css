@@ -89,12 +89,12 @@ nav {
 
 .header-content {
     flex-direction: column;
-    height: calc(100vh - 70px);
     align-items: center;
     justify-content: center;
     text-align: center;
     position: relative;
     padding: 0 10px;
+    margin-top: 120px;
 }
 .header-title {
     max-width: 386px;
