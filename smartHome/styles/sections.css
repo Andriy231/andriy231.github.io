@@ -397,9 +397,6 @@
         margin-top: 300px;
     }
     .about-us_image {
-        position: absolute;
-        top: -464px;
-        left: -145px;
     }
     .about-us_media {
         padding-top: 190px;
@@ -420,7 +417,6 @@
         font-size: 1.125rem;
     }
     .phone_img-block {
-        width: 80%;
         height: 352px;
         border-radius: 10px;
         background: var(--color-blue);
