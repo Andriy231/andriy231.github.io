@@ -8,7 +8,7 @@
 }
 
 .oval_1 {
-    background-image: url("images/bg_ellipse1.png");
+    background-image: url("../images/bg_ellipse1.png");
     left: 88%;
     top: 15%;
     width: 34px;
@@ -16,7 +16,7 @@
 }
 
 .oval_2 {
-    background-image: url("images/bg_ellipse2.png");
+    background-image: url("../images/bg_ellipse2.png");
     left: 76%;
     top: 82%;
     width: 17px;
@@ -24,7 +24,7 @@
 }
 
 .oval_3 {
-    background-image: url("images/bg_ellipse3.png");
+    background-image: url("../images/bg_ellipse3.png");
     left: 9%;
     top: 53%;
     width: 29px;
@@ -32,7 +32,7 @@
 }
 
 .ellipse_1 {
-    background-image: url("images/ellipse.png");
+    background-image: url("../images/ellipse.png");
     right: 0;
     top: 0;
     width: 174px;
