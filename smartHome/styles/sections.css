@@ -53,7 +53,7 @@
 .scroll {
     background-image: url("../images/scroll_down.png");
     right: 1%;
-    top: 65%;
+    top: 100%;
     width: 249.5px;
     height: 173.5px;
 }
@@ -469,6 +469,23 @@
 
 /* ------ Media queries ------- */
 
+@media (min-width: 430px) {
+
+    .section-clients_description,
+    .section-testimonial p,
+    .section-download_left-desc {
+        padding: 0 50px;
+    }
+}
+
+@media (min-width: 600px) {
+
+    .section-clients_description,
+    .section-testimonial p,
+    .section-download_left-desc {
+        padding: 0 150px;
+    }
+}
 
 @media (min-width: 768px) {
     .main-image {
@@ -710,17 +727,3 @@
     }
 }
 
-@media (min-width: 430px ) {
-    .section-clients_description,
-    .section-testimonial p,
-    .section-download_left-desc {
-        padding: 0 50px;
-    }
-}
-@media (min-width: 600px) {
-    .section-clients_description,
-    .section-testimonial p,
-    .section-download_left-desc {
-        padding: 0 150px;
-    }
-}
