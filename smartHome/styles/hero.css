@@ -132,6 +132,7 @@ nav {
     .logo {
         font-size: 2rem;
         margin: 0 auto;
+        padding-right: 55px;
     }
     .burger-icons {
         display: none;
@@ -174,15 +175,15 @@ nav {
         font-size: 5.313rem;
     }
     .header-description {
-        max-width: 680px;
+        max-width: 640px;
         font-size: 1.125rem;
         margin-top: 30px;
     }
     .social {
         position: absolute;
         flex-direction: column;
-        left: 50px;
-        bottom: 50px;
+        left: 40px;
+        bottom: -150px;
     }
 }
 
@@ -195,6 +196,12 @@ nav {
     }
     .menu a {
         font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1030px) {
+    .logo {
+        padding-right: 115px;
     }
 }
 

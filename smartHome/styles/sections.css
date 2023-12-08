@@ -18,7 +18,7 @@
 .oval_2 {
     background-image: url("../images/bg_ellipse2.png");
     left: 76%;
-    top: 82%;
+    top: 39%;
     width: 17px;
     height: 17px;
 }
@@ -26,7 +26,7 @@
 .oval_3 {
     background-image: url("../images/bg_ellipse3.png");
     left: 9%;
-    top: 53%;
+    top: 27%;
     width: 29px;
     height: 29px;
 }
@@ -41,8 +41,25 @@
 }
 
 .vector1 {
-    right: 10%;
+    margin-top: 920px;
+    right: 1%і;
     top: 10%;
+    z-index: -1;
+}
+
+.scroll {
+    background-image: url("../images/scroll_down.png");
+    right: 5%;
+    top: 5%;
+    width: 249.5px;
+    height: 161.5px;
+}
+.decorator {
+    background-image: url("../images/decorator.png");
+    right: 5%;
+    top: 5%;
+    width: 174px;
+    height: 348px;
 }
 
 
@@ -60,13 +77,15 @@
 
 .download-image {
     position: absolute;
-    top: 545px;
+    top: 308px;
 }
 
 .download-image img {
     width: 150px;
 }
-
+.about-us {
+    position: relative;
+}
 .about-us h1 {
     color: var(--color-black);
     font-size: 2rem;
@@ -123,7 +142,6 @@
     margin: 10px 0 20px 0;
     color: var(--color-grey);
     font-size: .5rem;
-    padding: 0 150px;
 }
 
 .container {
@@ -270,6 +288,9 @@
 }
 
 /* ---- Download App ---- */
+.section-download_left {
+    margin-bottom: 100px;
+}
 .section-download_left-title {
     margin-top: 100px;
     font-size: 2rem;
@@ -282,29 +303,30 @@
 }
 .section-download_left-img {
     flex-direction: column;
-    /* margin: 0 auto; */
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 .section-download_left-img img {
-    width: 40%;
     margin-bottom: 10px;
+}
+.section-download_right-img {
+    margin-top: -250px;
 }
 
 /* ---- Subscribe ---- */
 .subscribe {
     background: var(--color-blue);
     color: var(--color-white);
-    margin-top: 100px;
-    margin-bottom: 50px;
-    padding-bottom: 20px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px 25px;
+    border-radius: 10px;
+    gap: 30px;
+    justify-content: space-around;
 }
 .section-subscribe_title {
     font-size: 1rem;
     font-weight: 600;
-    padding-top: 20px;
-    
-    
 }
 .section-subscribe_desc {
     font-size: .5rem;
@@ -320,6 +342,7 @@
     font-size: .5rem;
     text-align: center;
     margin-bottom: 10px;
+    margin: auto 0;
     border-radius: 5px;
     border: 1px solid #FAFAFA;
     cursor: pointer;
@@ -327,14 +350,16 @@
 }
 
 /* --- Footer --- */
+    .footer.content-wrap {
+        margin-top: 50px;
+    }
     .footer-form_title {
         font-size: 1rem;
-        
     }
     .footer-form_desc {
         color: var(--color-grey);
         font-size: .4rem;
-        margin: 10px 0 15px;
+        margin: 6px 0 6px;
         max-width: 250px;
     }
     .footer-categories_title {
@@ -363,6 +388,31 @@
         color: var(--color-grey);
         text-decoration: none;
     }
+    .input {
+        border-radius: 5px;
+        width: 100px;
+        height: 20px;
+        font-size: .5rem;
+        padding-left: 5px;
+        border: 1px solid #E7EBEE;
+        background: #FAFAFA;
+    }
+    .form-button {
+        width: 50px;
+        height: 15px;
+        font-size: .5rem;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 1px solid #011037;
+        margin: 5px 0 15px;
+        line-height: 15px;
+        text-align: center;
+    }
+    .form-button a {
+        text-decoration: none;
+        color: var(--color-black);
+
+    }
 
 
 /* --- Copyright --- */
@@ -389,24 +439,26 @@
         position: absolute;
         top: 350px;
         padding-top: 15px;
-        /* left: 75px; */ 
     }
     .download-image {
-        top: 1000px;
+        top: 870px;
     }
     .download-image img {
         width: 200px;
     }
+    .about-us div {
+        gap: 40px;
+    }
     .about-us h1 {
         font-size: 5.313rem;
-        margin-top: 300px;
+        margin-top: 400px;
     }
     .about-us_image {
         margin-top: -211px;
     }
     .about-us_media {
-        padding-top: 190px;
-        width: 50%;
+        padding-top: 220px;
+        text-align: left;
     }
     .about-us_media h2 {
         font-size: 2.875rem;
@@ -421,18 +473,15 @@
         height: 58px;
         line-height: 58px;
         font-size: 1.125rem;
+        margin: 0;
     }
     .phone_img-block {
+        width: 40%;
         height: 352px;
         border-radius: 10px;
         background: var(--color-blue);
         margin-top: 362px;
         text-align: center;
-    }
-    .about-us_image2 {
-        position: absolute;            
-        top: -458px;
-        left: -256px;
     }
     .container {
         display: flex;
@@ -449,6 +498,7 @@
     .section-clients_description {
         font-size: 1.125rem;
         margin: 40px 0 80px;
+        padding: 0 150px;
     }
     .section-testimonial h1 {
         font-size: 5.313rem;
@@ -487,6 +537,7 @@
     .section-download_left {
         text-align: left;
         width: 40%;
+        margin-bottom: 370px;
     }
     .section-download_left-title {
         font-size: 5.313rem;
@@ -500,11 +551,6 @@
     .section-download_left-img {
         flex-direction: row;
         gap: 20px;
-    }
-    .section-download_right-img {
-        position: absolute;
-        top: -280px;
-        left: -263px;
     }
     /* .wrap {
         justify-content:space-between ;
@@ -520,15 +566,14 @@
 /* ---- Subscribe ---- */
     .subscribe {
         display: flex;
-        margin: 370px auto 140px;
+        padding: 30px 50px;
     }
     .section-subscribe_title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .section-subscribe_desc {
-        font-size: 1.125rem;
+        font-size: .85rem;
         max-width: 560px;
-        line-height: 32px;
     }
     .section-subscribe_button {
         width: 220px;
@@ -556,6 +601,17 @@
     .footer_list {
         font-size: 1rem;
     }
+    .input {
+        width: 189px;
+        height: 46px;
+        font-size: .875rem;
+    }
+    .form-button {
+        width: 100px;
+        height: 46px;
+        font-size: .875rem;
+        line-height: 46px;
+    }
 
 
 /* --- Copyright --- */
@@ -578,16 +634,19 @@
 }
 @media (min-width: 1030px) {
     .about-us h1 {
-        margin-top: 450px;
+        margin-top: 500px;
     }
     .download-image {
-        top: 1169px;
+        top: 1000px;
     }
     .section-subscribe_title {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .footer_list {
         font-size: 1.125rem;
+    }
+    .about-us div {
+        gap: 80px;
     }
 }
 
@@ -595,12 +654,12 @@
     .col-1-4 {
         width: calc(25% - 23px);
     }
-
-@media (max-width: 1200px) {
-    .section-download_right-img {
-        position: absolute;
-        top: -280px;
-        left: -402px;
+    .footer-form_form {
+        display: flex;
+        gap: 10px;
     }
-}
+    .form-button {
+        margin: 0;
+    }
+
 }
