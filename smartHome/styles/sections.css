@@ -3,7 +3,7 @@
 }
 
 /* --- background --- */
-.abstact {
+.abstract {
     position: absolute;
 }
 
@@ -18,7 +18,7 @@
 .oval_2 {
     background-image: url("../images/bg_ellipse2.png");
     left: 76%;
-    top: 39%;
+    top: 36%;
     width: 17px;
     height: 17px;
 }
@@ -40,28 +40,61 @@
     z-index: 1;
 }
 
-.vector1 {
+.vector_1 {
+    background-image: url("../images/vector1.png");
     margin-top: 920px;
-    right: 1%і;
-    top: 10%;
+    right: 2%;
+    top: 1%;
     z-index: -1;
+    width: 600px;
+    height: 1306px;
 }
 
 .scroll {
     background-image: url("../images/scroll_down.png");
-    right: 5%;
-    top: 5%;
+    right: 1%;
+    top: 65%;
     width: 249.5px;
-    height: 161.5px;
+    height: 173.5px;
 }
 .decorator {
     background-image: url("../images/decorator.png");
-    right: 5%;
-    top: 5%;
+    left: 0;
+    top: 97%;
     width: 174px;
     height: 348px;
 }
+.union {
+    background-image: url("../images/union.png");
+    right: 2%;
+    bottom: 0;
+    width: 208px;
+    height: 104px;
+}
 
+.decorator_2 {
+    background-image: url("../images/decorator2.png");
+    right: 0;
+    top: 332%;
+    width: 174px;
+    height: 348px;
+}
+.decorator_3 {
+    background-image: url("../images/decorator3.png");
+    left: 0;
+    top: 504%;
+    width: 174px;
+    height: 348px;
+}
+.vector_2 {
+    background-image: url("../images/vector2.png");
+    margin-top: 920px;
+    right: 2%;
+    top: 382%;
+    z-index: -1;
+    width: 600px;
+    height: 1306px;
+}
 
 
 
@@ -323,6 +356,7 @@
     border-radius: 10px;
     gap: 30px;
     justify-content: space-around;
+    position: relative;
 }
 .section-subscribe_title {
     font-size: 1rem;
@@ -344,6 +378,8 @@
     margin-bottom: 10px;
     margin: auto 0;
     border-radius: 5px;
+    z-index: 1;
+    background-color: var(--color-blue);
     border: 1px solid #FAFAFA;
     cursor: pointer;
     box-shadow: 0px 1.852px 3.148px 0px rgba(56, 56, 56, 0.02), 0px 8.148px 6.519px 0px rgba(56, 56, 56, 0.04), 0px 20px 13px 0px rgba(56, 56, 56, 0.05), 0px 38.519px 25.481px 0px rgba(56, 56, 56, 0.06), 0px 64.815px 46.852px 0px rgba(56, 56, 56, 0.08), 0px 100px 80px 0px rgba(56, 56, 56, 0.10);
@@ -534,6 +570,9 @@
     }
 
 /* --- Download App --- */
+    .section-download {
+        gap: 76px;
+    }
     .section-download_left {
         text-align: left;
         width: 40%;
@@ -547,6 +586,7 @@
         font-size: 1.125rem;
         margin-top: 40px;
         margin-bottom: 60px;
+        padding: 0;
     }
     .section-download_left-img {
         flex-direction: row;
@@ -567,6 +607,7 @@
     .subscribe {
         display: flex;
         padding: 30px 50px;
+        max-width: 1200px;
     }
     .section-subscribe_title {
         font-size: 1.5rem;
@@ -661,5 +702,25 @@
     .form-button {
         margin: 0;
     }
+}
 
+@media (max-width: 1300px) {
+    .decorator_3 {
+        display: none;
+    }
+}
+
+@media (min-width: 430px ) {
+    .section-clients_description,
+    .section-testimonial p,
+    .section-download_left-desc {
+        padding: 0 50px;
+    }
+}
+@media (min-width: 600px) {
+    .section-clients_description,
+    .section-testimonial p,
+    .section-download_left-desc {
+        padding: 0 150px;
+    }
 }

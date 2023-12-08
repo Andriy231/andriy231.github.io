@@ -75,6 +75,10 @@ body {
     display: none;
 }
 
+.hide-xxl {
+    display: none;
+}
+
 .menu-close {
     height: 0;
     overflow: hidden;
@@ -98,5 +102,11 @@ body {
     }
     .d-half {
         width: 50%;
+    }
+}
+
+@media (min-width: 1380px) {
+    .hide-xxl {
+        display: block;
     }
 }
