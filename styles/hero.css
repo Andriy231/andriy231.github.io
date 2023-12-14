@@ -16,7 +16,7 @@
     content: " ";
     background: #fff;
     width: 1px;
-    height: 100vh;
+    height: 600px;
 }
 
 nav {
@@ -46,9 +46,10 @@ nav {
     margin: 20px 0;
 }
 
-.menu li:hover {
-    border: 1px solid var(--color-white);
-}
+/* .menu li:hover {
+    border: 1px solid var(--color-black);
+    border-radius: 5px;
+} */
 
 .menu a {
     display: block;
